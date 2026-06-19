@@ -23,4 +23,8 @@ while True:
 
     choice = int(input("Enter your choice (1-5): "))
 
+    if choice == 1:
+        radius = float(input("Enter the radius of the circle: "))
+        area = circle_area(radius)
+        print(f"The area of the circle is {area:.3f}")
     
