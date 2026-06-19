@@ -10,3 +10,6 @@ import rectangle
 
 # Aliases are neccessary when importing modules because they both have the same function names 
 # and this will allow us to use specified functions from each module without any mistakes.
+
+print("Geometry Calculator")
+print("-------------------")
