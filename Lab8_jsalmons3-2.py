@@ -5,10 +5,10 @@ This program creates a menu for the user to calculate the area and perimeter/cir
 6/18/2026
 """
 
-import circle
-import rectangle
+from circle import calc_area as circle_area
+from rectangle import calc_area as rectangle_area
 
-# Aliases are neccessary when importing modules because they both have the same function names 
+# Aliases are necessary when importing modules because they both have the same function names 
 # and this will allow us to use specified functions from each module without any mistakes.
 
 print("Geometry Calculator")
