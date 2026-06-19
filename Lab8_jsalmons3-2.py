@@ -6,6 +6,7 @@ This program creates a menu for the user to calculate the area and perimeter/cir
 """
 
 from circle import calc_area as circle_area
+from circle import calc_circumference
 from rectangle import calc_area as rectangle_area
 
 # Aliases are necessary when importing modules because they both have the same function names 
@@ -27,4 +28,8 @@ while True:
         radius = float(input("Enter the radius of the circle: "))
         area = circle_area(radius)
         print(f"The area of the circle is {area:.3f}")
-    
+
+    elif choice == 2:
+        radius = float(input("Enter the radius of the circle: "))
+        circumference = calc_circumference(radius)
+        print(f"The circumference of the circle is {circumference:.3f}")
