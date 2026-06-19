@@ -13,10 +13,9 @@ from rectangle import calc_perimeter
 # Aliases are necessary when importing modules because they both have the same function names 
 # and this will allow us to use specified functions from each module without any mistakes.
 
-print("Geometry Calculator")
-print("-------------------")
-
 while True:
+    print("Geometry Calculator")
+    print("-------------------")
     print("1. Calculate Circle Area")
     print("2. Calculate Circle Circumference")
     print("3. Calculate Rectangle Area")
